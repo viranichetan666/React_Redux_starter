@@ -1,7 +1,5 @@
-import Documents from "containers/documents/Documents";
+import Dashboard from "containers/dashboard/Dashboard";
 
-const dashRoutes = [
-  { path: "/dashboard", component: Documents }
-];
+const dashRoutes = [{ path: "/dashboard", component: Dashboard }];
 
 export default dashRoutes;
